@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 1.125rem;
+    color: black;
+    background-image: url('images/spacex-OHOU-5UVIYQ-unsplash.jpg');
+    padding: 100px 50px;
+    opacity: 90%;
+}
+
+header {
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    padding: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: aqua;
+}
+
+img {
+    width: 40px;
+}
+
+.rocket {
+    color: black;
+}
+
+span{
+    display: flex;
+    font-size: 48px;
+    font-weight: bold;   
+}
+
+ul {
+    display: flex;
+    font-size: 28px;
+    font: weight 100px;;
+    opacity: 50%;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    margin: 0 20px;
+}
+
+div {
+    border: 3px solid black;
+    border-radius: 50%;
+    box-sizing: content-box;
+    background-color: gray; 
+}
+
+button {
+    font-size: 28px;
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+} 
+
+.rocketInfo {
+    font-size: 68px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.rocketDescription {
+    font-size: 28px;
+    color: white;
+    padding-bottom: 40px;
+}
